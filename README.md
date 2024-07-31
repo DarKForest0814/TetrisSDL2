@@ -12,8 +12,11 @@ pause functionallity and through the 3 and 4 argument the rotational keys can be
 ## CONTROLS
 
 a, d : Move left/right
+
 space: Pause/Unpause/start Game
+
 q, e: Rotate left/right ( standart configuration )
+
 
 ## KNOWN ISSUES
 
@@ -34,23 +37,23 @@ Make sure SDL2 is installt on your computer.
 
 Either via git clone and building:
 
-'git clone https://github.com/libsdl-org/SDL.git -b SDL2
+`git clone https://github.com/libsdl-org/SDL.git -b SDL2
 cd SDL
 mkdir build
 cd build
 ../configure
 make
-sudo make install'
+sudo make install`
 
 Or via the terminal:
 
 Debian/Ubuntu
 
-'sudo apt-get install libsdl2-dev
+`sudo apt-get install libsdl2-dev
 
 Fedora/CentOS
 
-yum search SDL2-devel'
+yum search SDL2-devel`
 
 ### WINDOWS
 
@@ -61,6 +64,6 @@ https://wiki.libsdl.org/SDL2/Installation
 
 Navigate to the /src directory and:
 
-'make game*
+`make game`
 
 To run the game execute the GameMain file
