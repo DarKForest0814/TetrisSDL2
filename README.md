@@ -37,23 +37,29 @@ Make sure SDL2 is installt on your computer.
 
 Either via git clone and building:
 
-`git clone https://github.com/libsdl-org/SDL.git -b SDL2
-cd SDL
-mkdir build
-cd build
-../configure
-make
-sudo make install`
+`git clone https://github.com/libsdl-org/SDL.git -b SDL2`
+
+`cd SDL`
+
+`mkdir build`
+
+`cd build`
+
+`../configure`
+
+`make`
+
+`sudo make install`
 
 Or via the terminal:
 
 Debian/Ubuntu
 
-`sudo apt-get install libsdl2-dev
+`sudo apt-get install libsdl2-dev`
 
 Fedora/CentOS
 
-yum search SDL2-devel`
+`yum search SDL2-devel`
 
 ### WINDOWS
 
