@@ -21,7 +21,7 @@ Renderer::Renderer() {
     return;
   }
   // fixes window size to width and height
-  SDL_SetWindowResizable(this->window_, false);
+  SDL_SetWindowResizable(this->window_, SDL_FALSE);
 
   this->renderer_ =
       SDL_CreateRenderer(this->window_, -1, SDL_RENDERER_ACCELERATED);
